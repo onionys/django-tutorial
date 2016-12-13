@@ -22,4 +22,20 @@
 可以有多個 remote repo ? 怎麼設定?
 
 
-##  建立有的沒有
+### push 到多個repo
+
+到遠方建立一個新的repo....假設該位置是 https://github.com/onionys/django-test.git
+
+在local 的專案之中，多加一個遠方的設定如下:
+
+    > git remote add test2 https://github.com/onionys/django-test.git
+
+test2 是你自已取的名字，通常該專案在你電腦中的第一個版本的名字會是 "origin"
+
+    > git push test2 master
+
+    test2 是遠端倉庫的名字
+
+    master 是branch的名字。
+
+## Fork 
