@@ -16,8 +16,10 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from tApp.views import hello_world
+from tApp.views import home
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^hello/', hello_world),
+    url(r'^hello/$', hello_world),
+    url(r'^$', home),
 ]

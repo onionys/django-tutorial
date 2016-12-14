@@ -39,3 +39,17 @@ test2 是你自已取的名字，通常該專案在你電腦中的第一個版�
     master 是branch的名字。
 
 ## Fork 
+
+練習fork這個專案
+
+    https://github.com/jlord/patchwork.git
+
+然後會在自已的github帳號裡面看到相同的帳號。
+
+把原始的repo 變成自已的remote
+
+    > git remote add upstream https://github.com/jlord/patchwork.git
+
+    upstream 是習慣用語
+
+
